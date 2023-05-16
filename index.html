@@ -88,29 +88,74 @@
       <!-- header by duc hau -->
     </header>
 
-
-
-
-
     <!-- ABOUT OUR COMPANY & STATISTIC - CAOVANLUC -->
-    <!-- I. ABOUT OUR COMPANY -->
+    <!-- I. ABOUT OUR COMPANY - CAOVANLUC -->
     <section class="py-5 w3l-index3">
       <div class="container py-lg-3 mt-3 HPAbout">
         <div class="row align-items-center">
           <div class="col-sm-6 book-info pr-md-5">
             <h6 class="sub-title">ABOUT OUR COMPANY</h6>
-            <h3 class="mb-md-4 mb-3">The Best Choice For Your Successful Business!</h3>
-            <p class="mb-md-5 mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est repellendus illum harum quam nihil totam reprehenderit! Ut sed eveniet quos! Asperiores officia, repudiandae similique reiciendis, ab est magnam esse nesciunt ea fuga facere voluptatem.</p>
+            <h3 class="mb-md-4 mb-3">
+              The Best Choice For Your Successful Business!
+            </h3>
+            <p class="mb-md-5 mb-4">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est
+              repellendus illum harum quam nihil totam reprehenderit! Ut sed
+              eveniet quos! Asperiores officia, repudiandae similique
+              reiciendis, ab est magnam esse nesciunt ea fuga facere voluptatem.
+            </p>
             <a href="#" class="btn btn-primary theme-button">Read More</a>
           </div>
           <div class="col-sm-6 pl-md-5 mt-sm-0 mt-5">
-            <img src="./img/about.jpg" alt="" class="img-fluid shadow img-curve">
+            <img
+              src="./img/about.jpg"
+              alt=""
+              class="img-fluid shadow img-curve"
+            />
           </div>
         </div>
       </div>
     </section>
-
-
+    <!-- II. STATISTIC - CAOVANLUC -->
+    <section class="w3l-stats pb-5 pt-4" id="stats">
+      <div class="gallery-inner container pb-lg-3 HPStats">
+        <div class="row stats-con justify-content-center">
+          <div class="col-lg-4 col-sm-6">
+            <div class="stats_info counter_grid">
+              <h4>Happy Customers</h4>
+              <p class="counter">10458</p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere atque sed.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mt-sm-0 mt-4">
+            <div class="stats_info counter_grid1">
+              <h4>Winning Awards</h4>
+              <p class="counter">890</p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere atque sed.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mt-lg-0 mt-sm-5 mt-4">
+            <div class="stats_info counter_grid">
+              <h4>Completed Projects</h4>
+              <p class="counter">5345</p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere atque sed.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- !-- COUNTER JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./libs/counter/jquery.countup.min.js"></script>
+    <script>
+        $('.counter').countUp(
+            {
+                delay: 5,
+                time: 3000
+            }
+        );
+    </script>
     <!-- 3 LINK JS CỦA BOOTSTRAP -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -129,6 +174,5 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-
   </body>
 </html>
