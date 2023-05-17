@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
 }
 /* 2 CÁI ROOT ĐỂ LẤY MÀU VÀ XEM KHAI BÁO */
 :root{
@@ -48,8 +49,6 @@
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
-    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 /* KHAI BÁO CONTAINER */
 .container{
@@ -177,8 +176,7 @@ a.search-search span.fa {
 .btn-primary:hover {
     color: #fff;
     background-color: #d62f58;
-    border-color: #cf2952;
-}
+    border-color: #cf2952;}
 img.img-curve {
     border-radius: 6px;
     transition: 0.3s ease-in-out;
@@ -470,4 +468,38 @@ h2.resp-accordion {
 .w3l-footer ul.social li a:hover {
     color: #dc4f72;
     transition: 0.3s ease;
+}
+/* BACKTOTOP - CAOVANLUC */
+.backtotop{
+    width: 65px;
+    height: 60px;
+    background: #f55f8d;
+    border-radius: 8px;
+    line-height: 65px;
+    text-align: center;
+    display: block;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    color: white;
+    transition: all .2s;
+    box-shadow: -4px 4px 24px -10px #f55f8d;
+    visibility: hidden;
+    opacity: 0; 
+}
+.cd-top--is-visible { 
+    visibility: visible;
+    opacity: 0.5;
+}
+.cd-top--fade-out { 
+    opacity: 0.5;
+}
+.backtotop:hover{
+    opacity: 1;
+    transition: 0.3s ease;
+}
+.backtotop i{
+    line-height: 45px;
+    color: #fff;
+    font-size: 22px;
 }
