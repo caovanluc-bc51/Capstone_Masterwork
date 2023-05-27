@@ -20,8 +20,9 @@
     />
     <!-- CDN ANIMATION - HIỆU ỨNG -->
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
     <!-- Bootstrap CSS -->
     <link
@@ -101,7 +102,13 @@
       <div>carosel</div>
       <!-- header by duc hau -->
     </header>
-
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     <!-- ABOUT OUR COMPANY & STATISTIC - CAOVANLUC -->
     <!-- I. ABOUT OUR COMPANY - CAOVANLUC -->
     <section class="py-5 w3l-index3">
@@ -211,7 +218,8 @@
       </div>
     </section>
     <!-- Q&A - DUCHAU -->
-    <!-- FEATURED CASES - CAOVANLUC -->
+
+    <!-- FEATURED CASES PROJECTS - CAOVANLUC -->
     <section class="w3l-products py-5 mb-4" id="products">
       <div class="container py-lg-3 HomepageProjects">
         <div class="header-section text-center mx-auto">
@@ -223,146 +231,99 @@
             sodales quis. Integer sit amet mattis quam.
           </p>
         </div>
-        <div class="row mt-5">
-          <div class="col-lg-10 mx-auto">
-            <div
-              id="parentHorizontalTab"
-              style="display: block; width: 100%; margin: 0px"
+        
+        <!-- Nav pills -->
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="pill" href="#projectOne"
+              >Project One</a
             >
-              <ul class="resp-tabs-list hor_1">
-                <li
-                  class="resp-tab-item hor_1 resp-tab-active"
-                  aria-controls="hor_1_tab_item-0"
-                  role="tab"
-                  style="
-                    background-color: white;
-                    border-color: rgb(193, 193, 193);
-                  "
-                >
-                  Project One
-                </li>
-                <li
-                  class="resp-tab-item hor_1"
-                  aria-controls="hor_1_tab_item-1"
-                  role="tab"
-                  style="
-                    background-color: rgb(245, 245, 245);
-                    border-color: rgb(193, 193, 193);
-                  "
-                >
-                  Project Two
-                </li>
-                <li
-                  class="resp-tab-item hor_1"
-                  aria-controls="hor_1_tab_item-1"
-                  role="tab"
-                  style="
-                    background-color: rgb(245, 245, 245);
-                    border-color: rgb(193, 193, 193);
-                  "
-                >
-                  Project Three
-                </li>
-              </ul>
-              <div
-                class="resp-tabs-container hor_1"
-                style="border-color: rgb(193, 193, 193)"
-              >
-                <h2 class="resp-accordion hor_1 resp-tab-active">
-                  <span class="resp-arrow"></span>
-                  Project One
-                </h2>
-                <div
-                  class="products-content resp-tab-content hor_1 resp-tab-content-active"
-                >
-                  <div class="row">
-                    <div class="col-md-6">
-                      <h3>Why a visual identity system is more memorable</h3>
-                      <p>
-                        Lorem ipsum dolor sit, adipisicing elit repudiandae
-                        perferendis dolores praesentium nulla quibusdam
-                        repellendus. consequatur minus aliquam corrupti
-                        blanditiis, necessitatibus consectetur modi ipsum natus
-                        accusantium sit pariatur.
-                      </p>
-                      <a
-                        href="#"
-                        class="btn btn-outline-primary theme-button mt-3"
-                        >Know More</a
-                      >
-                    </div>
-                    <div class="col-md-6 mt-md-0 mt-5">
-                      <img
-                        src="./img/project_1.jpg"
-                        alt="project_1"
-                        class="img-fluid img-curve"
-                      />
-                    </div>
-                  </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#projectTwo"
+              >Project Two</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#projectThree"
+              >Project Three</a
+            >
+          </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div class="tab-pane container active" id="projectOne">
+            <div class="project">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>Why a visual identity system is more memorable</h3>
+                  <p>
+                    Lorem ipsum dolor sit, adipisicing elit repudiandae
+                    perferendis dolores praesentium nulla quibusdam repellendus.
+                    consequatur minus aliquam corrupti blanditiis, necessitatibus
+                    consectetur modi ipsum natus accusantium sit pariatur.
+                  </p>
+                  <a href="#" class="btn btn-outline-primary theme-button mt-3"
+                    >Know More</a
+                  >
                 </div>
-                <h2 class="resp-accordion hor_1 resp-tab-active">
-                  <span class="resp-arrow"></span>
-                  Project Two
-                </h2>
-                <div
-                  class="products-content resp-tab-content hor_1 resp-tab-content-active"
-                >
-                  <div class="row">
-                    <div class="col-md-6">
-                      <h3>Make website that looks Lorem, ipsum dolor.</h3>
-                      <p>
-                        Lorem ipsum dolor sit, adipisicing elit repudiandae
-                        perferendis dolores praesentium nulla quibusdam
-                        repellendus. consequatur minus aliquam corrupti
-                        blanditiis, necessitatibus consectetur modi ipsum natus
-                        accusantium sit pariatur.
-                      </p>
-                      <a
-                        href="#"
-                        class="btn btn-outline-primary theme-button mt-3"
-                        >Know More</a
-                      >
-                    </div>
-                    <div class="col-md-6 mt-md-0 mt-5">
-                      <img
-                        src="./img/project_2.jpg"
-                        alt="project_2"
-                        class="img-fluid img-curve"
-                      />
-                    </div>
-                  </div>
+                <div class="col-md-6 mt-md-0 mt-5">
+                  <img
+                    src="./img/project_1.jpg"
+                    alt="project_1"
+                    class="img-fluid img-curve"
+                  />
                 </div>
-                <h2 class="resp-accordion hor_1 resp-tab-active">
-                  <span class="resp-arrow"></span>
-                  Project Three
-                </h2>
-                <div
-                  class="products-content resp-tab-content hor_1 resp-tab-content-active"
-                >
-                  <div class="row">
-                    <div class="col-md-6">
-                      <h3>Why a visual identity system is more memorable</h3>
-                      <p>
-                        Lorem ipsum dolor sit, adipisicing elit repudiandae
-                        perferendis dolores praesentium nulla quibusdam
-                        repellendus. consequatur minus aliquam corrupti
-                        blanditiis, necessitatibus consectetur modi ipsum natus
-                        accusantium sit pariatur.
-                      </p>
-                      <a
-                        href="#"
-                        class="btn btn-outline-primary theme-button mt-3"
-                        >Know More</a
-                      >
-                    </div>
-                    <div class="col-md-6 mt-md-0 mt-5">
-                      <img
-                        src="./img/project_3.jpg"
-                        alt="project_3"
-                        class="img-fluid img-curve"
-                      />
-                    </div>
-                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane container fade" id="projectTwo">
+            <div class="project">
+              <div class="row">
+                <div class="col-md-6 mt-md-0 mt-5">
+                  <img
+                    src="./img/project_2.jpg"
+                    alt="project_2"
+                    class="img-fluid img-curve"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <h3>Make website that looks Lorem, ipsum dolor.</h3>
+                  <p>
+                    Lorem ipsum dolor sit, adipisicing elit repudiandae
+                    perferendis dolores praesentium nulla quibusdam repellendus.
+                    consequatur minus aliquam corrupti blanditiis, necessitatibus
+                    consectetur modi ipsum natus accusantium sit pariatur.
+                  </p>
+                  <a href="#" class="btn btn-outline-primary theme-button mt-3"
+                    >Know More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane container fade" id="projectThree">
+            <div class="project">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>Why a visual identity system is more memorable</h3>
+                  <p>
+                    Lorem ipsum dolor sit, adipisicing elit repudiandae
+                    perferendis dolores praesentium nulla quibusdam repellendus.
+                    consequatur minus aliquam corrupti blanditiis, necessitatibus
+                    consectetur modi ipsum natus accusantium sit pariatur.
+                  </p>
+                  <a href="#" class="btn btn-outline-primary theme-button mt-3"
+                    >Know More</a
+                  >
+                </div>
+                <div class="col-md-6 mt-md-0 mt-5">
+                  <img
+                    src="./img/project_3.jpg"
+                    alt="project_3"
+                    class="img-fluid img-curve"
+                  />
                 </div>
               </div>
             </div>
@@ -515,7 +476,7 @@
     <!-- BACKTOTOP - CAOVANLUC  -->
     <a href="#" class="backtotop cd-top text-replace js-cd-top">
       <i class="fa-solid fa-angle-up"></i>
-  </a>
+    </a>
     <!-- !-- COUNTER JS -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
