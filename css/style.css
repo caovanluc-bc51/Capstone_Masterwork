@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Nunito", sans-serif;
-    
 }
 /* KHAI BÁO CONTAINER */
 .container{
@@ -27,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
     clear: both;
 }
 
-/* HEADER */
+/* HEADER by CAO VANLUC*/
 header.main-header {
     background-color: #fff;
     padding: 0px;
@@ -248,6 +247,44 @@ a.dropdown-item:hover {
 .search-right .popup form button:hover {
     opacity: .8;
 }
+/* CAROUSEL by CAOVANLUC*/
+.w3l-index1 {
+    margin-top: 90px;
+}
+.content {
+    background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.92)), url("../img/banner.jpg");
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    padding-top: 5rem;
+}
+.w3l-index1 .content-left h3 {
+    font-size: 50px;
+    line-height: 57.5px;
+    color: #2C3038;
+    font-weight: 700;
+}
+.w3l-index1 .content-left p {
+    color: #5a5a5a;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    max-width: 450px;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
 /* why choose us Hau */
 #service {
     padding: 5rem 0;
@@ -257,8 +294,6 @@ a.dropdown-item:hover {
 #service .container {
     background-color: #f7f9fc;
 }
-
-
 #service .service__title {
     position: relative;
     color: black !important;
@@ -562,9 +597,6 @@ img.img-curve:hover{
     padding: 10px;
     background-color: white;
     height: 292px;
-    
-
-
 }
 .testimonials_slider .item .item_left img {
     height: 90px;
