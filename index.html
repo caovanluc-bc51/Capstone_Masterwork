@@ -23,6 +23,16 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <!-- slick -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Slick -->
+    <link rel="stylesheet" href="./libs/slick/slick.css" />
+    <link rel="stylesheet" href="./libs/slick/slick-theme.css" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -106,6 +116,66 @@
         </nav>
       </div>
     </header>
+    <!-- why choose us Hau -->
+    <section id="service">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="service__title text-white text-center">
+          <p>WHY CHOOSE US</p>
+          <h1>
+            Tools for business startup to <br />
+            professional
+          </h1>
+          <span>
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia Curae; Nulla mollis <br />
+            dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet
+            mattis quam.
+          </span>
+        </div>
+
+        <div class="service__content">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./img/s1.png" alt="" />
+                  <h4 class="card-title">Interactive</h4>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laudantium tempora rerum perspiciatis?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./img/s2.png" alt="" />
+                  <h4 class="card-title">Business</h4>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laudantium tempora rerum perspiciatis?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./img/s3.png" alt="" />
+                  <h4 class="card-title">Inspiration</h4>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laudantium tempora rerum perspiciatis?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- ABOUT OUR COMPANY & STATISTIC - CAOVANLUC -->
     <!-- I. ABOUT OUR COMPANY - CAOVANLUC -->
     <section class="py-5 w3l-index3">
@@ -215,6 +285,163 @@
       </div>
     </section>
     <!-- Q&A - DUCHAU -->
+    <div class="container py-lg-5 HomePageFaq">
+      <div class="header-section text-center mx-auto">
+        <p>QUESTIONS AND ANSWERRS</p>
+        <h4>Generral FAQs</h4>
+        <span
+          >Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia Curae; Nulla mollis <br />
+          dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis
+          quam.</span
+        >
+        <div class="row">
+          <div class="col-md-5 mt-5 content-left-1">
+            <img src="./img/women(1).jpg" alt="" />
+          </div>
+          <div class="col-md-7 mt-5 pl-md-5 content-right">
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header">
+                  <a
+                    class="card-link"
+                    data-toggle="collapse"
+                    href="#collapseOne"
+                  >
+                    <span>There are many passages but the majority?</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                </div>
+                <div
+                  id="collapseOne"
+                  class="collapse show"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Voluptates amet earum velit nobis aliquam laboriosam nihil
+                    debitis facere voluptatibus consectetur quae quasi fuga, ad
+                    corrupti libero omnis sapiente non assumenda, incidunt
+                    officiis eaque iste minima autem
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a
+                    class="collapsed card-link"
+                    data-toggle="collapse"
+                    href="#collapseTwo"
+                  >
+                    <span>Sed ut perspiciatis unde omnis?</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                </div>
+                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    Voluptates amet earum velit nobis aliquam laboriosam nihil
+                    debitis facere voluptatibus consectetur quae quasi fuga, ad
+                    corrupti libero omnis sapiente non assumenda, incidunt
+                    officiis eaque iste minima autem
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a
+                    class="collapsed card-link"
+                    data-toggle="collapse"
+                    href="#collapseThree"
+                  >
+                    <span>At vero eos iusto odio ducimus qui?</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                </div>
+                <div
+                  id="collapseThree"
+                  class="collapse"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Voluptates amet earum velit nobis aliquam laboriosam nihil
+                    debitis facere voluptatibus consectetur quae quasi fuga, ad
+                    corrupti libero omnis sapiente non assumenda, incidunt
+                    officiis eaque iste minima autem
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a
+                    class="card-link"
+                    data-toggle="collapse"
+                    href="#collapseFour"
+                  >
+                    <span>We denounce with righteous?</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                </div>
+                <div
+                  id="collapseFour"
+                  class="collapse show"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Voluptates amet earum velit nobis aliquam laboriosam nihil
+                    debitis facere voluptatibus consectetur quae quasi fuga, ad
+                    corrupti libero omnis sapiente non assumenda, incidunt
+                    officiis eaque iste minima autem
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a
+                    class="collapsed card-link"
+                    data-toggle="collapse"
+                    href="#collapseFive"
+                  >
+                    <span>Perspiciatis unde omnis?</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                </div>
+                <div
+                  id="collapseFive"
+                  class="collapse"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Voluptates amet earum velit nobis aliquam laboriosam nihil
+                    debitis facere voluptatibus consectetur quae quasi fuga, ad
+                    corrupti libero omnis sapiente non assumenda, incidunt
+                    officiis eaque iste minima autem
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a
+                    class="collapsed card-link"
+                    data-toggle="collapse"
+                    href="#collapseSix"
+                  >
+                    <span>Vero eos iusto odio ducimus qui?</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                </div>
+                <div id="collapseSix" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    Voluptates amet earum velit nobis aliquam laboriosam nihil
+                    debitis facere voluptatibus consectetur quae quasi fuga, ad
+                    corrupti libero omnis sapiente non assumenda, incidunt
+                    officiis eaque iste minima autem
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- FEATURED CASES PROJECTS - CAOVANLUC -->
     <section class="w3l-products py-5 mb-4" id="products">
@@ -228,7 +455,7 @@
             sodales quis. Integer sit amet mattis quam.
           </p>
         </div>
-        
+
         <!-- Nav pills -->
         <ul class="nav nav-pills">
           <li class="nav-item">
@@ -258,8 +485,9 @@
                   <p>
                     Lorem ipsum dolor sit, adipisicing elit repudiandae
                     perferendis dolores praesentium nulla quibusdam repellendus.
-                    consequatur minus aliquam corrupti blanditiis, necessitatibus
-                    consectetur modi ipsum natus accusantium sit pariatur.
+                    consequatur minus aliquam corrupti blanditiis,
+                    necessitatibus consectetur modi ipsum natus accusantium sit
+                    pariatur.
                   </p>
                   <a href="#" class="btn btn-outline-primary theme-button mt-3"
                     >Know More</a
@@ -290,8 +518,9 @@
                   <p>
                     Lorem ipsum dolor sit, adipisicing elit repudiandae
                     perferendis dolores praesentium nulla quibusdam repellendus.
-                    consequatur minus aliquam corrupti blanditiis, necessitatibus
-                    consectetur modi ipsum natus accusantium sit pariatur.
+                    consequatur minus aliquam corrupti blanditiis,
+                    necessitatibus consectetur modi ipsum natus accusantium sit
+                    pariatur.
                   </p>
                   <a href="#" class="btn btn-outline-primary theme-button mt-3"
                     >Know More</a
@@ -308,8 +537,9 @@
                   <p>
                     Lorem ipsum dolor sit, adipisicing elit repudiandae
                     perferendis dolores praesentium nulla quibusdam repellendus.
-                    consequatur minus aliquam corrupti blanditiis, necessitatibus
-                    consectetur modi ipsum natus accusantium sit pariatur.
+                    consequatur minus aliquam corrupti blanditiis,
+                    necessitatibus consectetur modi ipsum natus accusantium sit
+                    pariatur.
                   </p>
                   <a href="#" class="btn btn-outline-primary theme-button mt-3"
                     >Know More</a
@@ -322,6 +552,88 @@
                     class="img-fluid img-curve"
                   />
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials">
+      <div class="testimonials_bg">
+        <div class="testimonials_container text-center">
+          <p>OUR CLIENTS TESTIMONIALS</p>
+          <h4>What People Say</h4>
+          <span
+            >Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia Curae; Nulla mollis <br />
+            dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet
+            mattis quam.</span
+          >
+        </div>
+        <div class="testimonials_content">
+          <div class="testimonials_slider">
+            <div class="item">
+              <div class="item_left">
+                <img src="./img/team3.jpg" alt="" />
+              </div>
+              <div class="item_right">
+                <i class="fa-solid fa-quote-left"></i>
+                <span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda corporis deleniti praesentium doloremque.
+                  Repellendus soluta quos nemo quisquam consectetur temporibus
+                  quam obcaecati sapiente quaerat et.
+                </span>
+                <h5>Isabella Mia</h5>
+                <p>Company name</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item_left">
+                <img src="./img/team4(1).jpg" alt="" />
+              </div>
+              <div class="item_right">
+                <i class="fa-solid fa-quote-left"></i>
+                <span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda corporis deleniti praesentium doloremque.
+                  Repellendus soluta quos nemo quisquam consectetur temporibus
+                  quam obcaecati sapiente quaerat et.
+                </span>
+                <h5>Benjamin Lucas</h5>
+                <p>Company name</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item_left">
+                <img src="./img/team5(1).jpg" alt="" />
+              </div>
+              <div class="item_right">
+                <i class="fa-solid fa-quote-left"></i>
+                <span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda corporis deleniti praesentium doloremque.
+                  Repellendus soluta quos nemo quisquam consectetur temporibus
+                  quam obcaecati sapiente quaerat et.
+                </span>
+                <h5>Oliver Bradley</h5>
+                <p>Company name</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item_left">
+                <img src="./img/team6(1).jpg" alt="" />
+              </div>
+              <div class="item_right">
+                <i class="fa-solid fa-quote-left"></i>
+                <span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda corporis deleniti praesentium doloremque.
+                  Repellendus soluta quos nemo quisquam consectetur temporibus
+                  quam obcaecati sapiente quaerat et.
+                </span>
+                <h5>William James</h5>
+                <p>Company name</p>
               </div>
             </div>
           </div>
@@ -515,5 +827,46 @@
     <!-- BACKTOTOP JS -->
     <script src="./libs/backtotop/main.js"></script>
     <script src="./libs/backtotop/util.js"></script>
+    <!-- lick Slick slider -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./libs/slick/slick.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".testimonials_slider").slick({
+          //setting-name: setting-value
+          infinite: true,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          arrows: false,
+          autoplay: false,
+          dots: true,
+        });
+      });
+    </script>
+
+    <!-- fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+      Fancybox.bind("[data-fancybox]", {
+        // Your custom options
+      });
+    </script>
+
+    <!-- waypoints -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+      integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./libs/countup/jquery.countup.min.js"></script>
+    <script>
+      $(".counter").countUp();
+    </script>
   </body>
 </html>

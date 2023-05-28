@@ -248,6 +248,53 @@ a.dropdown-item:hover {
 .search-right .popup form button:hover {
     opacity: .8;
 }
+/* why choose us Hau */
+#service {
+    padding: 5rem 0;
+    position: relative;
+    background-color: #f7f9fc;
+}
+#service .container {
+    background-color: #f7f9fc;
+}
+
+
+#service .service__title {
+    position: relative;
+    color: black !important;
+}
+#service .service__title p {
+    color: #de5879;
+    font-size: 20px;
+}
+.service__content .card {
+    margin-top: 20px;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    color: black;
+    backdrop-filter: blur(4px);
+    border: 1px solid ;
+    transition: all 0.5s;
+}
+
+.service__content .card:hover {
+    transition: 0.3s ease-in;
+    background: #f7f9fc;
+    transform: translateY(-10px);
+    box-shadow: 10px solid gray;
+}
+
+.service__content .card-body i {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+    .service__content .card {
+        margin: 1rem 0;
+}
+}
 /* ABOUT OUR COMPANY & STATISTIC - CAOVANLUC */
 /* <!-- I. ABOUT OUR COMPANY - CAOVANLUC --> */
 .w3l-index3{
@@ -378,6 +425,57 @@ img.img-curve:hover{
     background-color: #e2e6ea;
     border-color: #dae0e5;
 }
+/* home Q&A Hau*/
+.HomePageFaq {
+    margin-top: 15px;
+    background-color: #f7f9fc;
+}
+.HomePageFaq p {
+    color: #de5879;
+    font-size: 16px;
+    text-align: center;
+}
+.HomePageFaq h4 {
+    font-size: 60px;
+    text-align: center;
+}
+.HomePageFaq .header-section span {
+    text-align: center
+}
+.HomePageFaq .row {
+    display: flex;
+}
+.HomePageFaq .content-left-1 img {
+    height: 450px;
+    width: 400px;
+    transition: 0.5s;
+}
+.HomePageFaq .content-left-1 img:hover {
+    transform: translateY(-10px);
+}
+.HomePageFaq .content-right .card {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.HomePageFaq .content-right .card-header {
+    padding: 15px;
+    position: relative;
+    background-color: white;
+}
+.HomePageFaq .content-right .card-header span {
+    color: black;
+    font-size: 17px;
+}
+.HomePageFaq .content-right .card .card-header i {
+    position: absolute;
+    color: black;
+    right: 10px;
+    bottom: 20px;
+    transition: 0.5s;
+}
+.HomePageFaq .content-right .card .card-header i:active {
+    rotate: 180deg;
+}
 /* PROJECT - CAOVANLUC */
 .header-section {
     max-width: 750px;
@@ -438,7 +536,52 @@ img.img-curve:hover{
     font-size: 16px;
     line-height: 24.5px;
 }
+/* .testimonials Hau */
+.testimonials {
+    background-image: url(../img/b2.jpg);
+    background-position: center;
+    width: 100%;
+}
+.testimonials .testimonials_bg {
+    background-color: rgba(255, 255, 255, 0.8 );
+}
+.testimonials .testimonials_container p {
+    color: #de5879;
+    font-weight: 600;
+}
+.testimonials .testimonials_container h4 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.testimonials .testimonials_slider {
+    margin-top: 60px;
+    display: flex;
+}
+.testimonials .testimonials_slider .item {
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    height: 292px;
+    
 
+
+}
+.testimonials_slider .item .item_left img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 3px solid  #de5879;
+}
+.testimonials_slider .item_right {
+    margin-left: 10px;
+}
+.testimonials_slider .item_right i {
+    font-size: 30px;
+    color: gray;
+}
+.testimonials_slider .item_right h5 {
+    color: #de5879;
+}
 
 /* CTA - CAOVANLUC */
 .header-section {
