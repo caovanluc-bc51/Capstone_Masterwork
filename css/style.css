@@ -778,3 +778,7 @@ img.img-curve:hover{
     color: #fff;
     font-size: 22px;
 }
+/* THEME DARK */
+.dark{
+    background-color:#131617;
+}
