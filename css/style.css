@@ -917,9 +917,6 @@ img.img-curve:hover {
     background-color: #cf2952;
     border-color: #c4274e;
 }
-
-.btn
-
 /* BACKTOTOP - CAOVANLUC */
 .backtotop {
     width: 65px;
@@ -957,4 +954,9 @@ img.img-curve:hover {
     line-height: 45px;
     color: #fff;
     font-size: 22px;
+}
+/* DARK THEME */
+.dark{
+    background-color:#131617;
+    color: #eee;
 }
