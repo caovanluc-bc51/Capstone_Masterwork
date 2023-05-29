@@ -121,6 +121,11 @@ a.dropdown-item:before {
     height: 2px;
     bottom: 13px;
 }
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #5a5a5a;
+    text-decoration: none;
+    background-color: transparent;
+}
 
 .navbar-expand-lg .navbar-nav .nav-link:hover {
     color: #dc4f72;
@@ -552,7 +557,6 @@ img.img-curve:hover {
 
 /* home Q&A Hau*/
 .HomePageFaq {
-    margin-top: 15px;
     background-color: #f7f9fc;
     position: relative;
 }
@@ -648,7 +652,7 @@ img.img-curve:hover {
 .nav-item .active {
     color: #dc4f72 !important;
     border-bottom: 3px #dc4f72 solid;
-    background: #fff !important;
+    background-color: #fff !important;
 }
 
 .nav-pills li {
@@ -919,8 +923,8 @@ img.img-curve:hover {
 }
 /* BACKTOTOP - CAOVANLUC */
 .backtotop {
-    width: 65px;
-    height: 60px;
+    width: 50px;
+    height: 55px;
     background: #f55f8d;
     border-radius: 8px;
     line-height: 65px;
@@ -955,8 +959,256 @@ img.img-curve:hover {
     color: #fff;
     font-size: 22px;
 }
-/* DARK THEME */
-.dark{
-    background-color:#131617;
+/* DARK THEME BY CAOVANLUC */
+.dark h3, .dark p {
+    color: white;
+}
+/* DARK HEADER BY CAOVANLUC */
+.dark header.main-header{
+    background-color: #131617;
+}
+.dark .nav-item .active{
+    background: #131617 !important;
+}
+.dark .navbar-expand-lg .navbar-nav .nav-link{
     color: #eee;
+}
+.dark .navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #dc4f72;
+}
+.dark a.dropdown-item{
+    color: #eee;
+}
+.dark .dropdown-menu {
+    border-radius: 6px;
+    min-width: 11rem;
+    padding: 1rem 0 0.3rem;
+    box-shadow: 1px 5px 7.5px rgba(14, 13, 13, 0.2);;
+    background: #131617;
+    border: 1px solid #333;
+}
+.dark a.dropdown-item:hover {
+    color: #dc4f72;
+}
+.dark a.search-search i{
+    color: #b7b7b7;
+    font-size: 15px;
+    opacity: .7;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    background: #191c1d;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid #333;
+}
+.dark a.search-search i:hover {
+    color: #eee;
+    opacity: 1;
+}
+/* CAROUSEL DARK BY CAOVANLUC */
+.dark .content{
+    background: linear-gradient(to right, #131617, rgba(255, 255, 255, 0.92)), url("../img/banner.jpg");
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    padding-top: 5rem;
+}
+.dark .w3l-index1 .content-left h3 {
+    font-size: 50px;
+    line-height: 57.5px;
+    color: #eee;
+    font-weight: 700;
+}
+.dark .w3l-index1 .content-left p {
+    color: #b7b7b7;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    max-width: 450px;
+}
+/* ABOUT OUT COMPANY DARK BY CAOVANLUC */
+.dark .w3l-index3 {
+    background-color: #191c1d;
+}
+.dark .w3l-index3 .book-info h3 {
+    font-size: 35px;
+    line-height: 40px;
+    color: #eee;
+    font-weight: 700;
+}
+.dark .w3l-index3 .book-info p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #b7b7b7;
+    line-height: 24.4px;
+}
+.dark .w3l-stats {
+    background: #191c1d;
+}
+.dark .w3l-stats .stats_info {
+    background-color: #131617;
+    padding: 2rem;
+    border-radius: 6px;
+    box-shadow: 1px 5px 7.5px rgba(14, 13, 13, 0.2);
+    transition: 0.3s ease;
+    border: 1px solid #333;
+}
+.dark .w3l-stats .stats_info h4 {
+    font-size: 16px;
+    line-height: 24.5px;
+    text-transform: capitalize;
+    color: #eee;
+    font-weight: 700;
+}
+/* PROJECT DARK BY CAOVANLUC */
+.dark .w3l-products{
+    background: #000;
+}
+.dark .w3l-products .nav-item a{
+    color: #eee;
+}
+
+/* CTA DARK BY CAOVANLUC */
+.dark .w3l-index6{
+    background: #000;
+}
+.dark .header-section h3 {
+    color: #eee;
+    font-size: 46px;
+    line-height: 1;
+    font-weight: 700;
+}
+.dark .header-section p {
+    color: #b7b7b7;
+    font-size: 16px;
+    line-height: 22.5px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+/* FOOTER DARK BY CAOVANLUC */
+.dark .w3l-footer .w3l-footer-16-main.py-5 {
+    background: #191c1d;
+}
+.dark .w3l-footer .end-column {
+    background-color: #131617;
+    padding: 2em;
+    border-radius: 6px;
+    box-shadow: 1px 5px 7.5px rgba(14, 13, 13, 0.2);
+}
+.dark .w3l-footer .subscribe input[type="email"] {
+    background: #191c1d;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    outline: none;
+    width: 78%;
+    color: #eee;
+    font-weight: 600;
+    border-radius: 6px;
+}
+.dark .w3l-footer .w3l-footer-16-main h3 {
+    font-size: 20px;
+    line-height: 25px;
+    color: #eee;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.dark 
+.w3l-footer .w3l-footer-16-main h4 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #eee;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.dark .w3l-footer .w3l-footer-16-main p {
+    line-height: 22px;
+    color: #b7b7b7;
+    font-size: 16px;
+}
+.dark .w3l-footer .w3l-footer-16-main p {
+    line-height: 22px;
+    color: #b7b7b7;
+    font-size: 16px;
+}
+.dark .w3l-footer .w3l-footer-16-main p a {
+    color: #eee;
+}
+.dark .w3l-footer .w3l-footer-16-main h3 a:hover, .w3l-footer .footer-gd-16 li a:hover, .w3l-footer .w3l-footer-16-main p a:hover {
+    opacity: 0.8;
+    color: #dc4f72;
+}
+.dark .w3l-footer ul.social li a {
+    color: #eee;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+}
+.dark .w3l-footer ul.social li a:hover {
+    color: #dc4f72;
+    transition: 0.3s ease;
+}
+/* WHY CHOOSE US DARK BY CAOVANLUC */
+.dark .whyChoose,.dark .whyChoose2{
+    background: #000 !important;
+}
+.dark .service__title h1{
+    color: #eee;
+}
+.dark .service__content h4{
+    color: #eee;
+}
+.dark .service__content .card{
+    background: #191c1d;
+}
+/* Q&A DARK BY CAOVANLUC */
+.dark .HomePageFaq{
+    background: #191c1d;
+}
+.dark .HomePageFaq h4{
+    color: #eee;
+}
+.dark .HomePageFaq span{
+    color: #b7b7b7;
+}
+.dark .content-right .card-header{
+    background: #131617;
+}
+.dark .content-right .card-body{
+    background: #131617;
+    color: #eee;
+}
+.dark .content-right .card-header span{
+    color: #eee;
+}
+/* OUR CLIENTS TESTIMONIALS DARK BY CAOVANLUC */
+.dark .testimonials_bg{
+        background: linear-gradient(to right, #131617, rgba(255, 255, 255, 0.77)), url("../img/b2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+}
+.dark .testimonials_bg h4{
+    color: #eee;
+}
+.dark .testimonials_bg span{
+    color: #b7b7b7;
+}
+.dark .testimonials_bottom .item{
+    background: #131617;
 }
