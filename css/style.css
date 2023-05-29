@@ -979,12 +979,16 @@ img.img-curve:hover {
 .dark a.dropdown-item{
     color: #eee;
 }
+.dark .navbar-expand-lg .navbar-nav .dropdown-menu:before {
+    background: #131617;
+    border: 1px solid #131617;
+}
 .dark .dropdown-menu {
     border-radius: 6px;
     min-width: 11rem;
     padding: 1rem 0 0.3rem;
     box-shadow: 1px 5px 7.5px rgba(14, 13, 13, 0.2);;
-    background: #131617;
+    background: #131617 !important;
     border: 1px solid #333;
 }
 .dark a.dropdown-item:hover {
