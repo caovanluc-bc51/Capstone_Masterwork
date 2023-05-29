@@ -1,28 +1,42 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Nunito", sans-serif;
 }
+
 /* KHAI BÁO CONTAINER */
-.container{
+.container {
     max-width: 1200px;
 }
+
 /* HIỆU ỨNG BÀN TAY KHI RÊ CHUỘT CHUNG */
-button, .btn, select {
+button,
+.btn,
+select {
     cursor: pointer;
     font-family: 'Nunito', sans-serif;
 }
+
 ul {
     list-style: disc;
 }
-a, a:hover {
+
+a,
+a:hover {
     text-decoration: none;
 }
+
 li {
     list-style-type: none;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     clear: both;
 }
 
@@ -36,17 +50,20 @@ header.main-header {
     align-items: center;
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
 }
-header.nav-fixed{
+
+header.nav-fixed {
     background-color: #fff;
     height: 70px;
     border-bottom: none;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
 }
-.navbar{
+
+.navbar {
     padding: 0;
     justify-content: space-between;
 }
-.navbar .navbar-brand{
+
+.navbar .navbar-brand {
     margin: 0;
     padding: 0;
     font-size: 26px;
@@ -55,26 +72,32 @@ header.nav-fixed{
     color: #dc4f72;
     letter-spacing: -1px;
 }
+
 .nav-fixed .navbar-expand-lg .navbar-brand {
     color: #dc4f72;
 }
-.navbar-collapse{
+
+.navbar-collapse {
     flex-grow: 1;
     align-items: center;
 }
+
 .navbar-expand-lg .navbar-nav .nav-item {
     padding: 0 15px;
     transition: all 0.5s ease;
     position: relative;
 }
+
 nav ul li {
     display: inline-block;
     text-align: center;
 }
+
 .navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
     color: #dc4f72;
-    border-bottom:white ;
+    border-bottom: white;
 }
+
 .navbar-expand-lg .navbar-nav .nav-link {
     text-transform: capitalize;
     transition: all 0.5s ease;
@@ -83,10 +106,14 @@ nav ul li {
     font-weight: 400;
     color: #2C3038;
 }
-.navbar-expand-lg .navbar-nav .nav-link:hover:before, a.dropdown-item:hover:before {
+
+.navbar-expand-lg .navbar-nav .nav-link:hover:before,
+a.dropdown-item:hover:before {
     width: 20px;
 }
-a.nav-link:before, a.dropdown-item:before {
+
+a.nav-link:before,
+a.dropdown-item:before {
     position: absolute;
     content: '';
     background: #dc4f72;
@@ -94,17 +121,21 @@ a.nav-link:before, a.dropdown-item:before {
     height: 2px;
     bottom: 13px;
 }
+
 .navbar-expand-lg .navbar-nav .nav-link:hover {
     color: #dc4f72;
 }
+
 .navbar-expand-lg .navbar-nav .nav-link:hover {
     color: #dc4f72;
 }
+
 .search-right {
     align-items: center;
     display: inline-grid;
     grid-template-columns: auto 1fr;
 }
+
 a.search-search i {
     color: #5a5a5a;
     font-size: 15px;
@@ -117,11 +148,14 @@ a.search-search i {
     border-radius: 50px;
     border: 1px solid #eee;
 }
+
 a.search-search i:hover {
     color: #2C3038;
     opacity: 1;
 }
-a:hover, a:active {
+
+a:hover,
+a:active {
     outline: 0;
 }
 
@@ -139,10 +173,12 @@ a:hover, a:active {
     height: 100%;
     width: 100%;
 }
+
 .search-right .pop-overlay:target {
     visibility: visible;
     opacity: 1;
 }
+
 .search-right .popup {
     position: relative;
     margin: 0rem auto;
@@ -150,6 +186,7 @@ a:hover, a:active {
     top: 50%;
     max-width: 600px;
 }
+
 .search-right .popup form input[type="search"] {
     font-style: normal;
     font-weight: normal;
@@ -166,6 +203,7 @@ a:hover, a:active {
     border-top-left-radius: 6px;
     border-right: none;
 }
+
 .search-right .popup form button {
     font-size: 17px;
     line-height: 28px;
@@ -181,7 +219,9 @@ a:hover, a:active {
     border-bottom-right-radius: 6px;
     border-top-right-radius: 6px;
 }
-a.nav-link:before, a.dropdown-item:before {
+
+a.nav-link:before,
+a.dropdown-item:before {
     position: absolute;
     content: '';
     background: #dc4f72;
@@ -189,9 +229,13 @@ a.nav-link:before, a.dropdown-item:before {
     height: 2px;
     bottom: 13px;
 }
-nav ul li a, nav ul li a:after, nav ul li a:before {
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
     transition: all .5s;
 }
+
 .search-right .popup .close {
     position: absolute;
     right: 20px;
@@ -202,6 +246,7 @@ nav ul li a, nav ul li a:after, nav ul li a:before {
     color: #fff;
     opacity: 0.7;
 }
+
 .close {
     float: right;
     font-size: 1.5rem;
@@ -211,12 +256,15 @@ nav ul li a, nav ul li a:after, nav ul li a:before {
     text-shadow: 0 1px 0 #fff;
     opacity: .5;
 }
+
 .search-right .popup .close:hover {
     opacity: 1;
 }
+
 .navbar-expand-lg .navbar-nav .dropdown-menu {
     transform: translateX(-50px);
 }
+
 .navbar-expand-lg .navbar-nav .dropdown-menu:before {
     content: '';
     width: 14px;
@@ -232,6 +280,7 @@ nav ul li a, nav ul li a:after, nav ul li a:before {
     left: 49%;
     z-index: 1001;
 }
+
 a.dropdown-item {
     font-weight: 400;
     font-size: 16px;
@@ -240,6 +289,7 @@ a.dropdown-item {
     padding-top: 0;
     padding-bottom: 14px;
 }
+
 a.dropdown-item:hover {
     color: #dc4f72;
 }
@@ -247,10 +297,12 @@ a.dropdown-item:hover {
 .search-right .popup form button:hover {
     opacity: .8;
 }
+
 /* CAROUSEL by CAOVANLUC*/
 .w3l-index1 {
     margin-top: 90px;
 }
+
 .content {
     background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.92)), url("../img/banner.jpg");
     position: relative;
@@ -264,12 +316,14 @@ a.dropdown-item:hover {
     align-items: center;
     padding-top: 5rem;
 }
+
 .w3l-index1 .content-left h3 {
     font-size: 50px;
     line-height: 57.5px;
     color: #2C3038;
     font-weight: 700;
 }
+
 .w3l-index1 .content-left p {
     color: #5a5a5a;
     font-size: 20px;
@@ -277,6 +331,7 @@ a.dropdown-item:hover {
     font-weight: 400;
     max-width: 450px;
 }
+
 .img-fluid {
     max-width: 100%;
     height: auto;
@@ -291,17 +346,21 @@ a.dropdown-item:hover {
     position: relative;
     background-color: #f7f9fc;
 }
+
 #service .container {
     background-color: #f7f9fc;
 }
+
 #service .service__title {
     position: relative;
     color: black !important;
 }
+
 #service .service__title p {
     color: #de5879;
     font-size: 20px;
 }
+
 .service__content .card {
     margin-top: 20px;
     text-align: center;
@@ -309,7 +368,7 @@ a.dropdown-item:hover {
     border-radius: 10px;
     color: black;
     backdrop-filter: blur(4px);
-    border: 1px solid ;
+    border: 1px solid;
     transition: all 0.5s;
 }
 
@@ -328,14 +387,16 @@ a.dropdown-item:hover {
 @media screen and (max-width: 992px) {
     .service__content .card {
         margin: 1rem 0;
+    }
 }
-}
+
 /* ABOUT OUR COMPANY & STATISTIC - CAOVANLUC */
 /* <!-- I. ABOUT OUR COMPANY - CAOVANLUC --> */
-.w3l-index3{
+.w3l-index3 {
     background-color: #F7F9FC;
 }
-.sub-title{
+
+.sub-title {
     font-size: 16px;
     line-height: 20px;
     font-weight: 700;
@@ -343,35 +404,41 @@ a.dropdown-item:hover {
     text-transform: uppercase;
     margin-bottom: 5px;
 }
-.w3l-index3 .book-info h3{
+
+.w3l-index3 .book-info h3 {
     font-size: 35px;
     line-height: 40px;
-    color: #2C3038 ;
+    color: #2C3038;
     font-weight: 700;
 }
-.w3l-index3 .book-info p{
+
+.w3l-index3 .book-info p {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    color: #5a5a5a ;
+    color: #5a5a5a;
     line-height: 24.4px;
 }
-.btn-primary{
+
+.btn-primary {
     color: #fff;
     background-color: #dc4f72;
     border-color: #dc4f72;
 }
-.btn-primary:active{
+
+.btn-primary:active {
     color: #fff !important;
     background-color: #dc4f72 !important;
     border-color: #dc4f72 !important;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     color: #fff;
     background-color: #dc4f72;
     border-color: #dc4f72;
 }
-.theme-button{
+
+.theme-button {
     transition: 0.3s ease-out;
     display: inline-block;
     line-height: 52px;
@@ -381,26 +448,33 @@ a.dropdown-item:hover {
     padding: 0px 30px;
     text-transform: uppercase;
 }
+
 .btn-primary:hover {
     color: #fff;
     background-color: #d62f58;
-    border-color: #cf2952;}
+    border-color: #cf2952;
+}
+
 img.img-curve {
     border-radius: 6px;
     transition: 0.3s ease-in-out;
 }
-.img-fluid{
+
+.img-fluid {
     max-width: 100%;
     height: auto;
 }
-img.img-curve:hover{
+
+img.img-curve:hover {
     transform: translateY(-0.5rem);
     transition: 0.3s ease-in-out;
 }
+
 /* <!-- II. STATISTIC - CAOVANLUC --> */
-.w3l-stats{
+.w3l-stats {
     background: #F7F9FC;
 }
+
 .w3l-stats .stats_info {
     background-color: #fff;
     padding: 2rem;
@@ -409,14 +483,16 @@ img.img-curve:hover{
     transition: 0.3s ease;
     border: 1px solid #f8f9fa;
 }
-.w3l-stats .stats_info h4{
+
+.w3l-stats .stats_info h4 {
     font-size: 16px;
     line-height: 24.5px;
     text-transform: capitalize;
     color: #2C3038;
     font-weight: 700;
 }
-.w3l-stats p.counter{
+
+.w3l-stats p.counter {
     font-size: 50px;
     line-height: 1;
     color: #dc4f72;
@@ -425,12 +501,14 @@ img.img-curve:hover{
     margin-bottom: 15px;
     margin-top: 10px;
 }
-.w3l-stats .stats_info:hover{
+
+.w3l-stats .stats_info:hover {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
     transition: 0.3s ease;
 }
+
 /* NEWS - CAOVANLUC */
-.new-block{
+.new-block {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)), url(../img/bg_news.jpg);
     background-size: cover;
     background-repeat: no-repeat, no-repeat, no-repeat;
@@ -441,66 +519,85 @@ img.img-curve:hover{
     align-items: center;
     padding: 2rem 0;
 }
+
 .w3l-index4 .middle-section {
     max-width: 550px;
 }
+
 .w3l-index4 .middle-section h2 {
     color: #ffffff;
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
 }
+
 .w3l-index4 .link-list-menu p {
     font-size: 16px;
     color: #eee;
     line-height: 24.5px;
 }
+
 .btn-light:hover {
     color: #212529;
     background-color: #e2e6ea;
     border-color: #dae0e5;
 }
+
 /* home Q&A Hau*/
 .HomePageFaq {
     margin-top: 15px;
     background-color: #f7f9fc;
+    position: relative;
 }
+
 .HomePageFaq p {
-    color: #de5879;
+    color: #de5879 !important;
     font-size: 16px;
+    font-weight: 600;
     text-align: center;
 }
+
 .HomePageFaq h4 {
     font-size: 60px;
     text-align: center;
 }
+
 .HomePageFaq .header-section span {
     text-align: center
 }
+
 .HomePageFaq .row {
     display: flex;
 }
+
 .HomePageFaq .content-left-1 img {
     height: 450px;
     width: 400px;
+    position: absolute;
+    left: -50px;
     transition: 0.5s;
 }
+
 .HomePageFaq .content-left-1 img:hover {
     transform: translateY(-10px);
 }
+
 .HomePageFaq .content-right .card {
     margin-bottom: 20px;
     text-align: left;
 }
+
 .HomePageFaq .content-right .card-header {
     padding: 15px;
     position: relative;
     background-color: white;
 }
+
 .HomePageFaq .content-right .card-header span {
     color: black;
     font-size: 17px;
 }
+
 .HomePageFaq .content-right .card .card-header i {
     position: absolute;
     color: black;
@@ -508,23 +605,28 @@ img.img-curve:hover{
     bottom: 20px;
     transition: 0.5s;
 }
+
 .HomePageFaq .content-right .card .card-header i:active {
     rotate: 180deg;
 }
+
 /* PROJECT - CAOVANLUC */
 .header-section {
     max-width: 750px;
     margin: 0 auto;
 }
+
 .text-center {
     text-align: center;
 }
+
 .header-section h3 {
     color: var(--title-color);
     font-size: 46px;
     line-height: 1;
     font-weight: 700;
 }
+
 .header-section p {
     color: #5a5a5a;
     font-size: 16px;
@@ -535,12 +637,14 @@ img.img-curve:hover{
     margin-top: 5px;
     max-width: 750px;
 }
-.nav-item .active{
+
+.nav-item .active {
     color: #dc4f72 !important;
     border-bottom: 3px #dc4f72 solid;
     background: #fff !important;
 }
-.nav-pills li{
+
+.nav-pills li {
     font-weight: 700;
     font-size: 22px;
     padding: 15px;
@@ -550,69 +654,87 @@ img.img-curve:hover{
     float: left;
     width: 33.333%;
     text-align: center;
-    
+
 }
-.nav-pills li a{
+
+.nav-pills li a {
     color: #2C3038;
 }
-.tab-content .project{
+
+.tab-content .project {
     margin: 30px 0;
 }
-.tab-content h3{
+
+.tab-content h3 {
     color: #2C3038;
     margin-bottom: 16px;
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
 }
-.tab-content p{
+
+.tab-content p {
     color: #5a5a5a;
     margin-bottom: 16px;
     font-size: 16px;
     line-height: 24.5px;
 }
+
 /* .testimonials Hau */
 .testimonials {
     background-image: url(../img/b2.jpg);
     background-position: center;
     width: 100%;
+
 }
+
 .testimonials .testimonials_bg {
-    background-color: rgba(255, 255, 255, 0.8 );
+    background-color: rgba(255, 255, 255, 0.9);
 }
+
 .testimonials .testimonials_container p {
     color: #de5879;
     font-weight: 600;
 }
+
 .testimonials .testimonials_container h4 {
     font-size: 40px;
     font-weight: 600;
 }
-.testimonials .testimonials_slider {
-    margin-top: 60px;
-    display: flex;
-}
-.testimonials .testimonials_slider .item {
-    display: flex;
-    padding: 10px;
+
+.owl-carousel .item {
     background-color: white;
     height: 292px;
 }
-.testimonials_slider .item .item_left img {
+
+.testimonials_bottom .owl-carousel .item img {
     height: 90px;
     width: 90px;
     border-radius: 50%;
-    border: 3px solid  #de5879;
+    border: 3px solid #de5879;
 }
-.testimonials_slider .item_right {
-    margin-left: 10px;
+
+.testimonials_bottom .owl-carousel .item .item_Card {
+    display: flex;
 }
-.testimonials_slider .item_right i {
-    font-size: 30px;
+
+.testimonials_bottom .owl-carousel .item .item_right {
+    display: flex;
+    margin-left: 15px;
+}
+
+.testimonials_bottom .owl-carousel .item .item_right .fontawesome {
     color: gray;
+    font-size: 25px;
 }
-.testimonials_slider .item_right h5 {
+
+.testimonials_bottom .owl-carousel .item .item_right .text span {
+    font-size: 16px;
+}
+
+.testimonials_bottom .owl-carousel .item .item_right .text h5 {
     color: #de5879;
+    padding-top: 10px;
 }
 
 /* CTA - CAOVANLUC */
@@ -620,12 +742,14 @@ img.img-curve:hover{
     max-width: 750px;
     margin: 0 auto;
 }
+
 .header-section h3 {
     color: #2C3038;
     font-size: 46px;
     line-height: 1;
     font-weight: 700;
 }
+
 .header-section p {
     color: #5a5a5a;
     font-size: 16px;
@@ -635,19 +759,23 @@ img.img-curve:hover{
     margin-right: auto;
     margin-top: 5px;
 }
+
 .btn-outline-primary {
     color: #dc4f72;
     border-color: #dc4f72;
 }
+
 .btn-outline-primary:hover {
     color: #fff;
     background-color: #dc4f72;
     border-color: #dc4f72;
 }
+
 /* FOOTER - CAOVANLUC */
 .w3l-footer .w3l-footer-16-main.py-5 {
     background: #F7F9FC;
 }
+
 .w3l-footer .w3l-footer-16-main h3 {
     font-size: 20px;
     line-height: 25px;
@@ -655,11 +783,13 @@ img.img-curve:hover{
     margin-bottom: 30px;
     font-weight: 700;
 }
+
 .column li {
     display: block;
     list-style: none;
     margin: 10px 0;
 }
+
 .column li a {
     color: #656f7b;
     font-weight: normal;
@@ -668,15 +798,18 @@ img.img-curve:hover{
     padding: 0;
     text-transform: capitalize;
 }
+
 .column li a:hover {
     color: #dc4f72;
 }
+
 .w3l-footer .end-column {
     background-color: #fff;
     padding: 2em;
     border-radius: 6px;
     box-shadow: 1px 5px 7.5px rgba(14, 13, 13, 0.2);
 }
+
 .w3l-footer .w3l-footer-16-main h4 {
     font-size: 18px;
     line-height: 25px;
@@ -684,11 +817,13 @@ img.img-curve:hover{
     margin-bottom: 30px;
     font-weight: 500;
 }
+
 .w3l-footer form {
     display: flex;
     margin-bottom: 15px;
     justify-content: space-between;
 }
+
 .w3l-footer .subscribe input[type="email"] {
     background: #F7F9FC;
     border: none;
@@ -700,6 +835,7 @@ img.img-curve:hover{
     font-weight: 600;
     border-radius: 6px;
 }
+
 .w3l-footer .subscribe button {
     text-align: center;
     background: #dc4f72;
@@ -713,24 +849,30 @@ img.img-curve:hover{
     color: #fff;
     border-radius: 6px;
 }
+
 .w3l-footer .w3l-footer-16-main p {
     line-height: 22px;
     color: #5a5a5a;
     font-size: 16px;
 }
+
 .w3l-footer .subscribe button:hover {
     transition: all .5s ease;
 }
-.w3l-footer .below-section{
+
+.w3l-footer .below-section {
     border-top: 1px solid #eee;
 }
+
 .w3l-footer .w3l-footer-16-main p a {
     color: #2C3038;
 }
-.w3l-footer ul.social li{
+
+.w3l-footer ul.social li {
     display: inline-block;
     margin-right: 5px;
 }
+
 .w3l-footer ul.social li a {
     color: #2C3038;
     width: 36px;
@@ -740,12 +882,14 @@ img.img-curve:hover{
     border-radius: 50%;
     text-align: center;
 }
+
 .w3l-footer ul.social li a:hover {
     color: #dc4f72;
     transition: 0.3s ease;
 }
+
 /* BACKTOTOP - CAOVANLUC */
-.backtotop{
+.backtotop {
     width: 65px;
     height: 60px;
     background: #f55f8d;
@@ -760,20 +904,24 @@ img.img-curve:hover{
     transition: all .2s;
     box-shadow: -4px 4px 24px -10px #f55f8d;
     visibility: hidden;
-    opacity: 0; 
+    opacity: 0;
 }
-.cd-top--is-visible { 
+
+.cd-top--is-visible {
     visibility: visible;
     opacity: 0.5;
 }
-.cd-top--fade-out { 
+
+.cd-top--fade-out {
     opacity: 0.5;
 }
-.backtotop:hover{
+
+.backtotop:hover {
     opacity: 1;
     transition: 0.3s ease;
 }
-.backtotop i{
+
+.backtotop i {
     line-height: 45px;
     color: #fff;
     font-size: 22px;
