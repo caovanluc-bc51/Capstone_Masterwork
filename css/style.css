@@ -260,6 +260,9 @@ nav ul li a:before {
 .search-right .popup .close:hover {
     opacity: 1;
 }
+.search-right .popup form input:focus {
+    outline: none;
+}
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
     transform: translateX(-50px);
@@ -344,11 +347,11 @@ a.dropdown-item:hover {
 #service {
     padding: 5rem 0;
     position: relative;
-    background-color: #f7f9fc;
+    background-color: #fff;
 }
 
 #service .container {
-    background-color: #f7f9fc;
+    background-color: #fff;
 }
 
 #service .service__title {
@@ -370,11 +373,12 @@ a.dropdown-item:hover {
     backdrop-filter: blur(4px);
     border: 1px solid;
     transition: all 0.5s;
+    background: #f7f9fc;
 }
 
 .service__content .card:hover {
     transition: 0.3s ease-in;
-    background: #f7f9fc;
+    background:#fff;
     transform: translateY(-10px);
     box-shadow: 10px solid gray;
 }
@@ -382,6 +386,9 @@ a.dropdown-item:hover {
 .service__content .card-body i {
     font-size: 2.5rem;
     margin-bottom: 1rem;
+}
+.card-body{
+    cursor: pointer;
 }
 
 @media screen and (max-width: 992px) {
@@ -887,6 +894,31 @@ img.img-curve:hover {
     color: #dc4f72;
     transition: 0.3s ease;
 }
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(220, 79, 114, 0.5) !important;
+}
+.btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: #d62f58;
+    border-color: #cf2952;
+    box-shadow: 0 0 0 0.2rem rgba(225, 105, 135, 0.5);
+}
+.w3l-footer .w3l-footer-16-main h3 a:hover, .w3l-footer .footer-gd-16 li a:hover, .w3l-footer .w3l-footer-16-main p a:hover {
+    opacity: 0.8;
+    color: #dc4f72;
+}
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #dc4f72;
+    border-color: #dc4f72;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #cf2952;
+    border-color: #c4274e;
+}
+
+.btn
 
 /* BACKTOTOP - CAOVANLUC */
 .backtotop {
